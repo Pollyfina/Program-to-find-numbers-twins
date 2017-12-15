@@ -3,7 +3,7 @@ n = int(input("n="))
 
 if n>=10000:
     print('Дай-ка подумать...')
-elif n==1488:
+if n==1488:
     fur=', фюрер'
 else:
     fur=''
