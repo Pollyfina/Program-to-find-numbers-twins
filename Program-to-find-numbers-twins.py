@@ -22,9 +22,9 @@ if n>=10000:
 if n==1488:
     fur=', фюрер'
 elif n==666:
-    fur='Царь Преисподней'
+    fur=', Царь Преисподней'
 elif n==123 or n==1234 or n==12345 or n==123456 or n==1234567 or n==12345678 or n==123456789 or n==1234567890 or n==1111:
-    fur='Basic-man'
+    fur=', Basic-man'
 else:
     fur=''
 
