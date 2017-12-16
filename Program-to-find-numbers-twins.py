@@ -31,10 +31,10 @@ for bliz in range (2,len(lst)):
 
 print('В диапазоне от 1 до %s обнаружено %s пар чисел-близнецов. Вот они%s:' %(n,len(lst2),fur))
 print(lst2)
+
 final=input()
 while final != '':
     print('Для выходы из программы нажмите Enter.')
     final=input()
-    contine
-else:
-    break
+    if final=='':
+        break
