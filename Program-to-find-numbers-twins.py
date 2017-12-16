@@ -29,6 +29,5 @@ for bliz in range (2,len(lst)):
             oo='(%s + %s)' %(ff, kk)
             lst2.append(oo)
 
-pp=len(lst2)
-print('В диапазоне от 1 до %s обнаружено %s пар чисел-близнецов. Вот они%s:' %(n,pp,fur))
+print('В диапазоне от 1 до %s обнаружено %s пар чисел-близнецов. Вот они%s:' %(n,len(lst2),fur))
 print(lst2)
