@@ -1,16 +1,15 @@
 print('Эта программа ищет простые числа-близнецы в диапазоне от 1 до n.')
 
-r=0
 while True:
     try:
         n = input("n=")
-        o1=int(n)
-        n=o1
+        n1=int(n)
+        n=n1
         break
     except(ValueError):
         try:
-            o2=float(n)
-            n=o2
+            n2=float(n)
+            n=n2
             n=int(n)
             print('Вы ввели вещественное число, округляем его до целого.')
             break
@@ -30,9 +29,9 @@ else:
 
 lst = []
 lst2=[]
-y=n+1
+n3=n+1
 
-for i in range(2,y):
+for i in range(2,n3):
     for j in range(2, i):
         if i % j == 0:
             break
