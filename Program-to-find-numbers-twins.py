@@ -1,19 +1,19 @@
 print('Эта программа ищет простые числа-близнецы в диапазоне от 1 до n.')
 
 r=0
-while r != 1:
+while True:
     try:
         n = input("n=")
         o1=int(n)
-        r=1
         n=o1
+        break
     except(ValueError):
         try:
             o2=float(n)
-            r=1
             n=o2
-            print('Вы ввели вещественное число, округляем его до целого.')
             n=int(n)
+            print('Вы ввели вещественное число, округляем его до целого.')
+            break
         except(ValueError):
             print('Вы ввели не число, давайте-ка попробуем снова.')
 
