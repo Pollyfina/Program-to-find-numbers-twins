@@ -38,6 +38,8 @@ for i in range(2,n3):
     else:
         lst.append(i)
 
+ff=None
+
 for bliz in range (2,len(lst)):
     for bliz2 in range(2,len(lst)):
         if bliz2 != len(lst)-1:
